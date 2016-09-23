@@ -19,4 +19,4 @@ PERMANENT_SESSION_LIFETIME = 3600 * 24 * 30
 try:
     from frame.local_config import *
 except Exception, e:
-    print "[warning] %s" % e
+    print 'level=warning msg="%s"' % e
